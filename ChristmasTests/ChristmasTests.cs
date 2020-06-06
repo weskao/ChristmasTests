@@ -15,6 +15,13 @@ namespace ChristmasTests
         }
 
         [Test]
+        public void Today_Is_Xmas_night()
+        {
+            GivenToday(12, 24);
+            SayXmasShouldResponse("Merry X'mas");
+        }
+
+        [Test]
         public void Today_Is_Not_Xmas()
         {
             GivenToday(10, 25);
@@ -36,7 +43,8 @@ namespace ChristmasTests
     {
         public string SayHello()
         {
-            if (GetToday().Month == 12 && GetToday().Day == 25)
+            if (GetToday().Month == 12 &&
+                (GetToday().Day == 24 || GetToday().Day == 25))
             {
                 return "Merry X'mas";
             }
