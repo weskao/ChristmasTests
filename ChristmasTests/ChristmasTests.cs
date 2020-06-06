@@ -5,13 +5,23 @@ namespace ChristmasTests
 {
     public class ChristmasTests
     {
+        private readonly FakeHoliday _fakeHoliday = new FakeHoliday();
+
         [Test]
         public void Today_Is_xmas()
         {
-            var holidayForTest = new HolidayForTest();
-            holidayForTest.SetToday(12, 25);
+            GivenToday(12, 25);
+            SayXmasShouldResponse("Merry X'mas");
+        }
 
-            Assert.AreEqual("Merry X'mas", holidayForTest.SayHello());
+        private void SayXmasShouldResponse(string merryXMas)
+        {
+            Assert.AreEqual(merryXMas, _fakeHoliday.SayHello());
+        }
+
+        private void GivenToday(int month, int day)
+        {
+            _fakeHoliday.SetToday(new DateTime(2025, month, day));
         }
     }
 
@@ -35,7 +45,7 @@ namespace ChristmasTests
         }
     }
 
-    public class HolidayForTest : Holiday
+    public class FakeHoliday : Holiday
     {
         private DateTime _today;
 
@@ -44,9 +54,9 @@ namespace ChristmasTests
             return _today;
         }
 
-        public void SetToday(int month, int day)
+        public void SetToday(DateTime today)
         {
-            _today = new DateTime(2025, month, day);
+            _today = today;
         }
     }
 }
