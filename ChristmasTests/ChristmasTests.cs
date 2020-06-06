@@ -1,23 +1,26 @@
 using System;
+using NSubstitute;
+using NUnit.Framework;
 
 namespace ChristmasTests
 {
-    public class ChristmasTests
-    {
-    }
-
     public class Holiday
     {
-        public void SayHello()
+        public string SayHello()
         {
-            if (DateTime.Today.Month == 12 && DateTime.Today.Day == 25)
+            if (GetToday().Month == 12 && DateTime.Today.Day == 25)
             {
-                Console.WriteLine("Merry Christmas");
+                return "Merry Christmas";
             }
             else
             {
-                Console.WriteLine("Today is not Christmas");
+                return "Today is not Christmas";
             }
+        }
+
+        protected DateTime GetToday()
+        {
+            return DateTime.Today;
         }
     }
 }
