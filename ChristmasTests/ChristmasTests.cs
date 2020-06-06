@@ -8,10 +8,17 @@ namespace ChristmasTests
         private readonly FakeHoliday _fakeHoliday = new FakeHoliday();
 
         [Test]
-        public void Today_Is_xmas()
+        public void Today_Is_Xmas()
         {
             GivenToday(12, 25);
             SayXmasShouldResponse("Merry X'mas");
+        }
+
+        [Test]
+        public void Today_Is_Not_Xmas()
+        {
+            GivenToday(10, 25);
+            SayXmasShouldResponse("Today is not X'mas");
         }
 
         private void SayXmasShouldResponse(string merryXMas)
