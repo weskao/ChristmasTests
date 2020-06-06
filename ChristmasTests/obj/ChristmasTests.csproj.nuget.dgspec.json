@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wes Kao\\Documents\\Visual Studio 2019\\Projects\\ChristmasTests\\ChristmasTests\\ChristmasTests.csproj": {}
+    "D:\\VS Workspace\\ChristmasTests\\ChristmasTests\\ChristmasTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wes Kao\\Documents\\Visual Studio 2019\\Projects\\ChristmasTests\\ChristmasTests\\ChristmasTests.csproj": {
+    "D:\\VS Workspace\\ChristmasTests\\ChristmasTests\\ChristmasTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wes Kao\\Documents\\Visual Studio 2019\\Projects\\ChristmasTests\\ChristmasTests\\ChristmasTests.csproj",
+        "projectUniqueName": "D:\\VS Workspace\\ChristmasTests\\ChristmasTests\\ChristmasTests.csproj",
         "projectName": "ChristmasTests",
-        "projectPath": "C:\\Users\\Wes Kao\\Documents\\Visual Studio 2019\\Projects\\ChristmasTests\\ChristmasTests\\ChristmasTests.csproj",
+        "projectPath": "D:\\VS Workspace\\ChristmasTests\\ChristmasTests\\ChristmasTests.csproj",
         "packagesPath": "C:\\Users\\Wes Kao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wes Kao\\Documents\\Visual Studio 2019\\Projects\\ChristmasTests\\ChristmasTests\\obj\\",
+        "outputPath": "D:\\VS Workspace\\ChristmasTests\\ChristmasTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

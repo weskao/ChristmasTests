@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ysNn/HHGfcIGcgOZiG6EGlnnDHo61x6MVoZBNHcmeOX6VNWKgOV+c5Ifb5ibSFfpCsN9LK3RHdH3E7Ly49A6fg==",
+  "dgSpecHash": "WBm7Jmd7UFlPHiHyGYJlKKZTg8oP4rSCsdTH5ytun5qLtGQ9JTryEjJ7N+zgOROXG79dI31Iy17vgZV0Z4IaEQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Wes Kao\\Documents\\Visual Studio 2019\\Projects\\ChristmasTests\\ChristmasTests\\ChristmasTests.csproj",
+  "projectFilePath": "D:\\VS Workspace\\ChristmasTests\\ChristmasTests\\ChristmasTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wes Kao\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
